@@ -57,7 +57,7 @@ public class UITests extends TestBase {
         homePage.openRadioButtons();
         homePage.clickYesRadioButton();
         homePage.clickImpressiveRadioButton();
-        homePage.clickNoRadioButton();
+        homePage.negativeCheckNoRadioButton();
     }
 
     @Test
@@ -124,7 +124,7 @@ public class UITests extends TestBase {
         sleep(2000);
         homePage.openBrokenLinks();
         homePage.clickBrokenLinks();
-        homePage.checkBrokenImage();
+        homePage.NegativeCheckBrokenImage();
     }
 
     @Test

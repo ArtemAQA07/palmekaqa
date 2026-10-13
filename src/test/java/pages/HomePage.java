@@ -179,7 +179,7 @@ public class HomePage {
     }
 
     @Step("Проверит кнопку 'нет'")
-    public void clickNoRadioButton() {
+    public void negativeCheckNoRadioButton() {
         radionobutton.click();
     }
 
@@ -359,7 +359,7 @@ public class HomePage {
     }
 
     @Step("Проверить Битое изображение")
-    public void checkBrokenImage(){
+    public void NegativeCheckBrokenImage(){
         $("img[id='broken-image']").shouldBe(visible);
     }
 
