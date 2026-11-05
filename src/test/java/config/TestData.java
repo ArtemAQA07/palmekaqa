@@ -1,9 +1,9 @@
 package config;
 
 public class TestData {
-    public static final String LOGEMAIL = "itshav180507@gmail.com";
-    public static final String PASSWORD = "ArTeM2007";
-    public static final String FULLNAME = "Артём Шубёнкин";
+    public static final String LOGEMAIL = "";
+    public static final String PASSWORD = "";
+    public static final String FULLNAME = "";
     public static final String EMAIL = "123@email.com";
     public static final String CURRENTADDRESS = "г. Екатеринбург ул. 8 марта д. 1 кв. 11";
     public static final String PARMANENTADDRESS = "г. Екатеринбург ул. Малышева д. 25 кв. 25";
